@@ -96,7 +96,8 @@ main .apply-btn {
   border-radius: 2.5px;
 }
 main .learn-btn:hover {
-  font-size: 10px;
+  color: black;
+  background-color: #f8f8f8;
 }
 main .apply-btn:hover {
   background-color: #f1c712;
@@ -169,7 +170,7 @@ main .apply-btn:hover {
   margin-bottom: 20px;
 }
 .programming .courses .readmore-btn:hover {
-    color: #0f4688;
+  color: #0f4688;
 }
 .programming .courses .right_img img {
   width: 80px;
@@ -307,7 +308,6 @@ main .apply-btn:hover {
 }
 .news_outer .read:hover {
   color: #0f4688;
-  font-size: 25px;
 }
 .news_outer h1 {
   font-size: 14px;
@@ -658,7 +658,7 @@ input[type="text"]:hover {
     margin-left: 20px;
   }
   header .navi_bar:hover {
-    color: #f1c712;
+    border_bottom: 2px solid #f1c712;
   }
   header .wrapper {
     display: flex;
@@ -805,7 +805,7 @@ input[type="text"]:hover {
     font-size: 43px;
     text-align: center;
     color: #47689a;
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .programming .para {
     font-size: 25px;
@@ -827,8 +827,7 @@ input[type="text"]:hover {
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: black;
-    filter: opacity(75%);
+    background-color:rgba(0,0,0,0.5);
     padding: 20px;
     margin: 0 auto;
     height: 300px;
@@ -863,7 +862,8 @@ input[type="text"]:hover {
     margin-top: 15px;
   }
   .admission .register_btn:hover {
-    box-shadow: 3px 3px;
+    color: black;
+    background-color: white;
   }
   /********************/
   /**pc events**/
@@ -998,7 +998,7 @@ input[type="text"]:hover {
     font-size: 48px;
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding-top: 50px;
   }
   .news_outer .wrapper .pc {
     width: 50%;
@@ -1109,13 +1109,15 @@ input[type="text"]:hover {
   }
   footer .wrapper .conatct_about {
     display: flex;
-    width: 100%;
+    width: 82%;
   }
   section.contact {
     width: 50%;
+    margin: 40px 0px;
   }
   section.about {
     width: 50%;
+    margin: 40px 0px;
   }
   footer .aboutus:after {
       content: "";
