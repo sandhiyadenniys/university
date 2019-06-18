@@ -96,7 +96,7 @@ main .apply-btn {
   border-radius: 2.5px;
 }
 main .learn-btn:hover {
-  font-size: 15px;
+  font-size: 10px;
 }
 main .apply-btn:hover {
   background-color: #f1c712;
@@ -217,9 +217,6 @@ main .apply-btn:hover {
   display: inline-block;
   cursor: pointer;
   margin-top: 10px;
-}
-.admission .register_btn:hover {
-  color: black;
 }
 /*****************/
 /**events**/
@@ -660,8 +657,8 @@ input[type="text"]:hover {
     margin-top: 5px;
     margin-left: 20px;
   }
-  a.navi_bar:hover {
-    background-color: #f1c712;
+  header .navi_bar:hover {
+    color: #f1c712;
   }
   header .wrapper {
     display: flex;
@@ -864,6 +861,9 @@ input[type="text"]:hover {
     display: inline-block;
     cursor: pointer;
     margin-top: 15px;
+  }
+  .admission .register_btn:hover {
+    box-shadow: 3px 3px;
   }
   /********************/
   /**pc events**/
