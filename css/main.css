@@ -17,6 +17,9 @@ body {
 .wrapper {
   padding: 0px 20px;
 }
+.main_slide {
+  display: none;
+}
 .pc {
   display: none;
 }
@@ -43,6 +46,9 @@ header .logo img {
 header .menu-btn {
   background: none;
   border: none;
+}
+header .menu-btn:hover {
+  background-color: white;
 }
 /*****************/
 /**main**/
@@ -88,6 +94,12 @@ main .apply-btn {
   margin: 0px 25px;
   cursor: pointer;
   border-radius: 2.5px;
+}
+main .learn-btn:hover {
+  font-size: 15px;
+}
+main .apply-btn:hover {
+  background-color: #f1c712;
 }
 /****************/
 /**programming**/
@@ -156,6 +168,9 @@ main .apply-btn {
   align-items: center;
   margin-bottom: 20px;
 }
+.programming .courses .readmore-btn:hover {
+    color: #0f4688;
+}
 .programming .courses .right_img img {
   width: 80px;
   position: absolute;
@@ -202,6 +217,9 @@ main .apply-btn {
   display: inline-block;
   cursor: pointer;
   margin-top: 10px;
+}
+.admission .register_btn:hover {
+  color: black;
 }
 /*****************/
 /**events**/
@@ -286,6 +304,14 @@ main .apply-btn {
 .news_outer {
   background-color: black;
 }
+.news_outer .read {
+    text-decoration: underline;
+    color: #f1c712;
+}
+.news_outer .read:hover {
+  color: #0f4688;
+  font-size: 25px;
+}
 .news_outer h1 {
   font-size: 14px;
   text-align: center;
@@ -308,7 +334,7 @@ main .apply-btn {
 .news_outer .news {
   display: flex;
   background-color: white;
-  margin-top: 13px;
+  margin-top: 20px;
   height: 90px;
 }
 .news_outer .news .news-date {
@@ -336,6 +362,31 @@ main .apply-btn {
 .news_outer .news .left {
   width: 100%;
 }
+.news_outer .news_slide {
+    position: relative;
+    padding: 15px;
+}
+.news_outer .news_dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.news_outer .news_dots .news_active {
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #f1c712;
+}
+.news_outer .news_dots .news_active1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    display: inline-block;
+    margin-right: 15px;
+    border: 1px solid #f1c712;
+}
 /****************/
 /**research**/
 /***************/
@@ -343,15 +394,18 @@ main .apply-btn {
   background-color: #f8f8f8;
 }
 .research h1 {
-  font-size: 14px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #47689a;
-  font-family: 'Merriweather', serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 30px;
+    color: #47689a;
+    font-family: 'Merriweather', serif;
+}
+.research .wrapper {
+  padding: 30px;
 }
 .research .research_section {
   position: relative;
+  margin-bottom: 30px;
 }
 .research .research_section .research_img img {
   width: 100%;
@@ -484,47 +538,67 @@ footer .social_media {
 }
 footer .icons .fa.fa-facebook {
     text-decoration: none;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     padding: 16px;
     text-align: center;
     border-radius: 50%;
     background: none;
     color: white;
     border: 1px solid;
+    font-size: 8px;
 }
 footer .icons .fa.fa-twitter {
     text-decoration: none;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     padding: 16px;
     text-align: center;
     border-radius: 50%;
     background: none;
     color: white;
     border: 1px solid;
+    font-size: 8px;
 }
 footer .icons .fa.fa-linkedin {
-    text-decoration: none;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     padding: 16px;
     text-align: center;
     border-radius: 50%;
     background: none;
     color: white;
     border: 1px solid;
+    font-size: 8px;
 }
 footer .icons .fa.fa-google-plus {
-    text-decoration: none;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     padding: 16px;
     text-align: center;
     border-radius: 50%;
     background: none;
     color: white;
     border: 1px solid;
+    font-size: 8px;
+}
+a.fa.fa-facebook:hover {
+    background-color: black;
+}
+a.fa.fa-twitter:hover {
+    background-color: black;
+}
+a.fa.fa-linkedin:hover {
+    background-color: black;
+}
+a.fa.fa-google-plus:hover {
+    background-color: black;
+}
+input[type="submit"]:hover {
+    background-color: #f8f8f8;
+}
+input[type="text"]:hover {
+    border: 1px solid #f8f8f8;
 }
 /*****************/
 /**pc**/
@@ -552,8 +626,17 @@ footer .icons .fa.fa-google-plus {
   .research_section_pc {
     display: block;
   }
+  .main_slide {
+    display: block;
+  }
   .menu-btn {
     display: none;
+  }
+  .news_slide {
+    display: none;
+  }
+  .wrapper {
+    padding: 0px 20px;
   }
   /****************/
   /**pc header**/
@@ -565,7 +648,7 @@ footer .icons .fa.fa-google-plus {
     margin-left: 15px;
     text-align: center;
     margin-top: 2px;
-    font-size: 20px;
+    font-size: 19px;
   }
   header .wrapper .navigation .navi .navi_bar {
     color: black;
@@ -575,7 +658,10 @@ footer .icons .fa.fa-google-plus {
   header .logo img {
     width: 300px;
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 20px;
+  }
+  a.navi_bar:hover {
+    background-color: #f1c712;
   }
   header .wrapper {
     display: flex;
@@ -640,6 +726,31 @@ footer .icons .fa.fa-google-plus {
     cursor: pointer;
     border-radius: 5px;
   }
+  main .main_slide {
+      position: relative;
+  }
+  main .main_dots {
+    position: absolute;
+    left: 50%;
+    top: 74px;
+    transform: translateX(-50%);
+  }
+  main .main_dots .main_active {
+      width: 20px;
+      height: 20px;
+      border-radius: 60%;
+      display: inline-block;
+      margin-right: 15px;
+      background-color: white;
+  }
+  main .main_dots .main_active1 {
+      width: 20px;
+      height: 20px;
+      border-radius: 60%;
+      display: inline-block;
+      margin-right: 15px;
+      border: 1px solid white;
+  }
   /******************/
   /**pc programming**/
   /*****************/
@@ -666,7 +777,7 @@ footer .icons .fa.fa-google-plus {
   .programming .courses .right_img img {
     width: 100px;
     position: absolute;
-    top: 84%;
+    top: 82%;
     right: 10%;
   }
   .programming .image_courses {
@@ -679,7 +790,7 @@ footer .icons .fa.fa-google-plus {
     font-size: 25px;
   }
   .programming .courses .content p {
-    font-size: 17px;
+    font-size: 19px;
     margin-bottom: 10px;
   }
   .programming .courses .content .readmore-btn {
@@ -869,16 +980,15 @@ footer .icons .fa.fa-google-plus {
   }
   .news_outer .wrapper {
     display: flex;
-    padding: 30px;
+    padding: 30px 30px 30px 0px;
   }
   .news_outer .news {
     display: flex;
     background-color: white;
-    margin-top: 13px;
     height: 145px;
-    width: 96%;
+    width: 90%;
     margin: 0 auto;
-    margin: 20px 10px 10px 20px;
+    margin: 35px 20px 60px 43px;
   }
   .news_outer .news .left {
     width: 100%;
@@ -895,7 +1005,6 @@ footer .icons .fa.fa-google-plus {
   }
   .news_outer .wrapper .sp {
     width: 50%;
-    margin-left: -13px;
   }
   .news_outer .wrapper .news .left .news_info {
     width: 80%;
@@ -950,12 +1059,12 @@ footer .icons .fa.fa-google-plus {
   }
   .research .wrapper {
     display: flex;
-    padding: 10px;
+    padding: 30px;
   }
   .research h1 {
     font-size: 43px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 61px;
     padding-bottom: 30px;
     color: #47689a;
   }
@@ -1009,12 +1118,12 @@ footer .icons .fa.fa-google-plus {
     width: 50%;
   }
   footer .aboutus:after {
-    content: "";
-    display: block;
-    background-color: white;
-    width: 145px;
-    height: 2px;
-    margin: 5px 0px 0px 25px;
+      content: "";
+      display: block;
+      background-color: white;
+      width: 141px;
+      height: 2px;
+      margin: 5px 0px 0px 71px;
   }
   footer .conatct_about .about_para {
     padding: 10px 15px;
