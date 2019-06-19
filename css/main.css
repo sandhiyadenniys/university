@@ -593,8 +593,6 @@ input[type="submit"]:hover {
     background-color: #f8f8f8;
 }
 input[type="text"]:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
     border: 1px solid white;
 
 }
