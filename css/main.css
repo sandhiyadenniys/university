@@ -593,7 +593,10 @@ input[type="submit"]:hover {
     background-color: #f8f8f8;
 }
 input[type="text"]:hover {
-    border: 1px solid #f8f8f8;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    border: 1px solid white;
+
 }
 /*****************/
 /**pc**/
@@ -640,10 +643,10 @@ input[type="text"]:hover {
     display: flex;
   }
   header .wrapper .navigation .navi {
-    margin-left: 15px;
-    text-align: center;
-    margin-top: 2px;
-    font-size: 19px;
+      margin-left: 20px;
+      text-align: center;
+      margin-top: 2px;
+      font-size: 18px;
   }
   header .wrapper .navigation .navi .navi_bar {
     color: black;
