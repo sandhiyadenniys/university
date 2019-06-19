@@ -930,6 +930,7 @@ input[type="text"]:hover {
     padding-left: 10px;
     width: 100%;
     position: relative;
+    margin-bottom: 34px;
   }
   /****************/
   /**pc news**/
