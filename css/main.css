@@ -170,7 +170,7 @@ main .apply-btn:hover {
   margin-bottom: 20px;
 }
 .programming .courses .readmore-btn:hover {
-  color: #0f4688;
+  color: #f8f8f8;
 }
 .programming .courses .right_img img {
   width: 80px;
@@ -246,22 +246,20 @@ main .apply-btn:hover {
   right: 50px;
 }
 .events .event_images .right_img {
-  background-image: url("../picture/pexels-photo-267885.jpeg");
+  background-image: url("../picture/events2.png");
   background-position: center;
   margin-top: 25px;
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 10px;
-  filter: brightness(50%);
 }
 .events .event_images .right_img1 {
-  background-image: url(../picture/pexels-photo-668137.jpeg);
+  background-image: url("../picture/events1.png");
   background-position: center;
   margin-top: 25px;
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 10px;
-  filter: brightness(50%);
 }
 .events .event_images {
   position: relative;
@@ -293,7 +291,7 @@ main .apply-btn:hover {
   text-align: center;
   padding: 7px 14px;
   position: absolute;
-  top: 0px;
+  top: 159px;
   right: 0px;
 }
 /*****************/
@@ -658,7 +656,8 @@ input[type="text"]:hover {
     margin-left: 20px;
   }
   header .navi_bar:hover {
-    border_bottom: 2px solid #f1c712;
+    border-bottom: 2px solid;
+    border-color: #f1c712;
   }
   header .wrapper {
     display: flex;
@@ -889,14 +888,6 @@ input[type="text"]:hover {
     top: 65px;
     left: 440px;
   }
-  .events .event_images .right_img {
-    background-image: url(../picture/pexels-photo-267885.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: brightness(50%);
-    width: 280px;
-  }
   .events .event_images .right_img .event-date {
     background-color: #f1c712;
     border: none;
@@ -921,24 +912,24 @@ input[type="text"]:hover {
     width: 75%;
   }
   .events .event_images .right_img {
-    background-image: url(../picture/pexels-photo-267885.jpeg);
+    background-image: url("../picture/events2.png");
     background-position: center;
     margin-top: 25px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 10px;
-    filter: brightness(50%);
     width: 100%;
+    position: relative;
   }
   .events .event_images .right_img1 {
-    background-image: url(../picture/pexels-photo-668137.jpeg);
+    background-image: url("../picture/events1.png");
     background-position: center;
     margin-top: 25px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 10px;
     width: 100%;
-    filter: brightness(50%);
+    position: relative;
   }
   /****************/
   /**pc news**/
