@@ -592,10 +592,6 @@ a.fa.fa-google-plus:hover {
 input[type="submit"]:hover {
     background-color: #f8f8f8;
 }
-input[type="text"]:hover {
-    border: 1px solid white;
-
-}
 /*****************/
 /**pc**/
 /****************/
