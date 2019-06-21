@@ -32,12 +32,15 @@ body {
 /**********/
 /* header */
 /*********/
+header {
+  background-color: #f1f8fd;
+  padding: 15px;
+}
 header .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f8fd;
-  padding: 15px;
+
 }
 header .logo img {
   width: 200px;
@@ -168,9 +171,6 @@ main .apply-btn:hover {
   display: inline-block;
   align-items: center;
   margin-bottom: 20px;
-}
-.programming .courses .readmore-btn:hover {
-  color: #f8f8f8;
 }
 .programming .courses .right_img img {
   width: 80px;
@@ -633,6 +633,13 @@ input[type="submit"]:hover {
   /****************/
   /**pc header**/
   /***************/
+  header {
+    background-color: #f1f8fd;
+    padding: 0px;
+    position: absolute;
+    top: 37px;
+    width: 100%;
+  }
   header .wrapper .navigation {
     display: flex;
   }
@@ -650,7 +657,6 @@ input[type="submit"]:hover {
   header .logo img {
     width: 300px;
     margin-top: 5px;
-    margin-left: 20px;
   }
   header .navi_bar:hover {
     border-bottom: 2px solid;
@@ -660,14 +666,7 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f8fd;
-    padding: 10px;
-    position: absolute;
-    filter: opacity(95%);
-    top: 24px;
-    right: 0px;
-    width: 100%;
-  }
+}
   /*****************/
   /**pc main**/
   /****************/
@@ -679,6 +678,7 @@ input[type="submit"]:hover {
     color: #ffffff;
     text-align: left;
     padding: 110px 0px;
+    width: 100%;
   }
   main .wrapper h2 {
     font-size: 35px;
@@ -808,6 +808,10 @@ input[type="submit"]:hover {
     text-align: center;
     color: #4c4c4c;
   }
+  .programming .courses .readmore-btn:hover {
+    color: #47689a;
+    background-color: #e8e8e8;
+  }
   /*******************/
   /**pc admission**/
   /******************/
@@ -865,8 +869,10 @@ input[type="submit"]:hover {
   /**pc events**/
   /*******************/
   .events {
-    display: flex;
     padding: 70px;
+  }
+  .events .wrapper {
+    display: flex;
   }
   .events .event_heading h1 {
     font-size: 60px;
@@ -928,6 +934,10 @@ input[type="submit"]:hover {
     width: 100%;
     position: relative;
     margin-bottom: 34px;
+  }
+  .events .event_images {
+    position: relative;
+    width: 30%;
   }
   /****************/
   /**pc news**/
@@ -1135,6 +1145,54 @@ input[type="submit"]:hover {
   footer .conatct_about .icons {
     display: flex;
     padding: 15px;
+  }
+  footer .icons .fa.fa-facebook {
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: none;
+    color: white;
+    border: 1px solid;
+    font-size: 30px;
+  }
+  footer .icons .fa.fa-twitter {
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: none;
+    color: white;
+    border: 1px solid;
+    font-size: 30px;
+  }
+  footer .icons .fa.fa-linkedin {
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: none;
+    color: white;
+    border: 1px solid;
+    font-size: 30px;
+  }
+  footer .icons .fa.fa-google-plus {
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: none;
+    color: white;
+    border: 1px solid;
+    font-size: 30px;
   }
   footer .copy {
     padding: 20px;
