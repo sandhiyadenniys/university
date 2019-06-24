@@ -99,8 +99,8 @@ main .apply-btn {
   border-radius: 2.5px;
 }
 main .learn-btn:hover {
-  color: black;
-  background-color: #f8f8f8;
+  color: white;
+  background-color: #0f4688;
 }
 main .apply-btn:hover {
   background-color: #f1c712;
@@ -315,22 +315,22 @@ main .apply-btn:hover {
   font-family: 'Merriweather', serif;
 }
 .news_outer .news .left .left-heading {
-  font-size: 11px;
-  padding: 5px 0px 0px 15px;
+  font-size: 12px;
+  padding: 35px 0px 0px 15px;
 }
 .news_outer .news .left .news_content {
   display: flex;
   padding: 4px;
 }
-.news_outer .news .news-img img {
-  width: 120px;
-  height: 90px;
-}
 .news_outer .news {
-  display: flex;
-  background-color: white;
-  margin-top: 20px;
-  height: 90px;
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    height: 137px;
+    justify-content: space-between;
+}
+.news_outer .news-img img {
+    height: 138px;
 }
 .news_outer .news .news-date {
   background-color: #0f4688;
@@ -577,20 +577,21 @@ footer .icons .fa.fa-google-plus {
     border: 1px solid;
     font-size: 8px;
 }
-a.fa.fa-facebook:hover {
-    background-color: black;
+footer .icons .fa.fa-google-plus:hover {
+  background-color: black;
 }
-a.fa.fa-twitter:hover {
-    background-color: black;
+footer .icons .fa.fa-twitter:hover {
+  background-color: black;
 }
-a.fa.fa-linkedin:hover {
-    background-color: black;
+footer .icons .fa.fa-facebook:hover {
+  background-color: black;
 }
-a.fa.fa-google-plus:hover {
-    background-color: black;
+footer .icons .fa.fa-linkedin:hover {
+  background-color: black;
 }
-input[type="submit"]:hover {
-    background-color: #f8f8f8;
+footer input[type="submit"]:hover {
+  background-color: #f8f8f8;
+  color: black;
 }
 /*****************/
 /**pc**/
@@ -639,7 +640,7 @@ input[type="submit"]:hover {
     position: absolute;
     top: 37px;
     width: 100%;
-  }
+    }
   header .wrapper .navigation {
     display: flex;
   }
@@ -809,8 +810,8 @@ input[type="submit"]:hover {
     color: #4c4c4c;
   }
   .programming .courses .readmore-btn:hover {
-    color: #47689a;
-    background-color: #e8e8e8;
+    color: white;
+    background-color: #0f4688;
   }
   /*******************/
   /**pc admission**/
@@ -862,8 +863,8 @@ input[type="submit"]:hover {
     margin-top: 15px;
   }
   .admission .register_btn:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #0f4688;
   }
   /********************/
   /**pc events**/
@@ -942,16 +943,12 @@ input[type="submit"]:hover {
   /****************/
   /**pc news**/
   /***************/
-  .news_outer .news {
+  /.news_outer .news {
     display: flex;
     background-color: white;
     margin-top: 13px;
     height: 145px;
     width: 50%;
-  }
-  .news_outer .news .news-img img {
-    width: 155px;
-    height: 145px;
   }
   .news_outer .news .news-date {
     background-color: #0f4688;
@@ -965,7 +962,7 @@ input[type="submit"]:hover {
   }
   .news_outer .news .left .left-heading {
     font-size: 16px;
-    padding: 5px 0px 0px 22px;
+    padding: 7px 0px 0px 16px;
   }
   .news_outer .news .left .news_info .news_program {
     font-size: 18px;
@@ -984,7 +981,7 @@ input[type="submit"]:hover {
   .news_outer .news {
     display: flex;
     background-color: white;
-    height: 145px;
+    height: 138px;
     width: 90%;
     margin: 0 auto;
     margin: 35px 20px 60px 43px;
@@ -1007,6 +1004,10 @@ input[type="submit"]:hover {
   }
   .news_outer .wrapper .news .left .news_info {
     width: 80%;
+  }
+  .news_outer .news_content3 {
+    display: flex;
+    justify-content: space-between;
   }
   /*******************/
   /**pc research**/
