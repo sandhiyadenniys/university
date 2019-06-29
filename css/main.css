@@ -194,9 +194,8 @@ main .apply-btn:hover {
   font-family: 'Merriweather', serif;
 }
 .admission .wrapper {
-  background-image: url(../picture/pexels-photo-1205651.jpeg);
+  background-image: url(../picture/admission.jpeg);
   background-position: center;
-  filter: opacity(90%);
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -846,7 +845,7 @@ footer input[type="submit"]:hover {
     text-align: center;
   }
   .admission .wrapper {
-    background-image: url(../picture/pexels-photo-1205651.jpeg);
+    background-image: url(../picture/sl-2-940x310.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
