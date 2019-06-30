@@ -194,9 +194,8 @@ main .apply-btn:hover {
   font-family: 'Merriweather', serif;
 }
 .admission .wrapper {
-  background-image: url(../picture/admission.jpeg);
+  background-image: url(../picture/shutterstock_726926179.jpg);
   background-position: center;
-  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 22px;
@@ -638,7 +637,7 @@ footer input[type="submit"]:hover {
   /**pc header**/
   /***************/
   header {
-    background-color: #f1f8fd;
+    background-color: rgba(	241, 248, 253, 0.);
     padding: 0px;
     position: absolute;
     top: 37px;
@@ -845,12 +844,13 @@ footer input[type="submit"]:hover {
     text-align: center;
   }
   .admission .wrapper {
-    background-image: url(../picture/sl-2-940x310.jpeg);
+    background-image: url(../picture/shutterstock_726926179.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 22px;
     height: 295px;
+    position: relative;
   }
   .admission .wrapper h3 {
     font-size: 40px;
@@ -899,8 +899,8 @@ footer input[type="submit"]:hover {
   .events .event_heading .event-pic img {
     width: 130px;
     position: absolute;
-    top: 65px;
-    left: 440px;
+    top: 10%;
+    left: 45%;
   }
   .events .event_images .right_img .event-date {
     background-color: #f1c712;
