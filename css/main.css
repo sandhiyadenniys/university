@@ -22,6 +22,9 @@ body {
 .main_slide {
   display: none;
 }
+.sm {
+  display: none;
+}
 .pc {
   display: none;
 }
@@ -54,6 +57,27 @@ header .menu-btn {
 }
 header .menu-btn:hover {
   background-color: white;
+}
+header .sm {
+  background: rgba(	241, 248, 253, 0.9);
+  width: 135px;
+  float: right;
+  text-align: center;
+}
+header .sm .sm-navi {
+  padding: 5px 0px;
+  border: 1px solid #f1c712;
+}
+header .sm .sm-navi .sm-navi_bar {
+  color: black;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+header nav.sm.active {
+  display: block;
+}
+header .sm .sm-navi .sm-navi_bar:hover {
+  color: #47689a;
 }
 /*****************/
 /**main**/
@@ -615,6 +639,9 @@ footer input[type="submit"]:hover {
   body {
     font-family: 'Source Sans Pro', sans-serif;
   }
+  .sm {
+    display: none;
+  }
   .pc {
     display: block;
   }
@@ -637,7 +664,7 @@ footer input[type="submit"]:hover {
   /**pc header**/
   /***************/
   header {
-    background-color: rgba(	241, 248, 253, 0.);
+    background-color: rgba(	241, 248, 253, 0.9);
     padding: 0px;
     position: absolute;
     top: 37px;
