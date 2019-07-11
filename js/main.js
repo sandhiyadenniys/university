@@ -9,7 +9,7 @@ menuButton.addEventListener('click' , function(){
 })
 
 
-// smooth scroll function for navigation
+// smooth scroll function
 
 $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
@@ -25,3 +25,17 @@ $(function() {
         }
     });
 });
+
+
+
+// scroll top Button
+
+  var goToTop = document.getElementById('goToTop');
+
+    document.addEventListener('scroll' , function() {
+      if(scrollY > 200) {
+        goToTop.classList.add('active');
+      } else {
+        goToTop.classList.remove('active');
+      }
+    })
