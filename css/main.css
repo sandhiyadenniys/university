@@ -1092,7 +1092,7 @@ footer input[type="submit"]:hover {
   .news_outer .news_content3 {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .news_outer .news_content {
     display: flex;
