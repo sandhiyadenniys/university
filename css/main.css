@@ -369,6 +369,11 @@ main .apply-btn:hover {
   display: flex;
   padding: 14px 4px;
 }
+.news_outer .news .left .news_content3 {
+  display: flex;
+  padding: 14px 4px;
+  justify-content: space-between;
+}
 .news_outer .news {
     display: flex;
     background-color: white;
@@ -432,7 +437,6 @@ main .apply-btn:hover {
     border: 1px solid #f1c712;
     cursor: pointer;
 }
-
 
 /****************/
 /**research**/
