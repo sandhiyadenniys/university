@@ -426,7 +426,7 @@ main .apply-btn:hover {
     border-radius: 60%;
     display: inline-block;
     margin-right: 15px;
-    background-color: #f1c712;
+    border: 1px solid #f1c712;
     cursor: pointer;
 }
 .news_outer .news_dots .news_active1 {
@@ -444,6 +444,9 @@ main .apply-btn:hover {
 .news_active1:hover {
   background-color: #f2c712;
 }
+.news_outer .news_slide .news_dots li.active {
+      background: #f2c712;
+    }
 
 /****************/
 /**research**/

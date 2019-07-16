@@ -53,10 +53,14 @@ newsIndicator2.addEventListener('click' , function(){
     newsSp.style.display = 'none';
     newsPc.classList.add('active');
     newsPc.style.display = 'block';
+    newsIndicator1.classList.remove('active');
+    newsIndicator2.classList.add('active');
 })
 newsIndicator1.addEventListener('click' , function() {
     newsPc.classList.remove('active');
     newsPc.style.display = 'none';
     newsSp.classList.add('active');
     newsSp.style.display = 'block';
+    newsIndicator1.classList.add('active');
+    newsIndicator2.classList.remove('active');
 })
