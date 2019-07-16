@@ -1133,6 +1133,7 @@ footer input[type="submit"]:hover {
     text-align: center;
     font-size: 25px;
     color: #47689a;
+    margin-bottom: 15px;
   }
   .research .research_section_pc .research_content .res_para img {
     width: 4%;
