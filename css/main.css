@@ -41,6 +41,7 @@ body {
   bottom: 10px;
   right: 10px;
   display: none;
+  z-index: 99;
 }
 .top-btn.active {
   display: block;
@@ -96,7 +97,7 @@ header .sm .sm-navi .sm-navi_bar:hover {
 /**main**/
 /****************/
 main {
-  background-image: url("../picture/pexels-photo-783926.png");
+  background-image: url("../picture/shutterstock_726926179.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -437,6 +438,12 @@ main .apply-btn:hover {
     border: 1px solid #f1c712;
     cursor: pointer;
 }
+.news_active:hover  {
+  background-color: #f2c712;
+}
+.news_active1:hover {
+  background-color: #f2c712;
+}
 
 /****************/
 /**research**/
@@ -741,7 +748,7 @@ footer input[type="submit"]:hover {
   /**pc main**/
   /****************/
   main {
-    background-image: url(../picture/pexels-photo-783926.png);
+    background-image: url(../picture/shutterstock_726926179.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }

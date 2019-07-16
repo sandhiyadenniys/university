@@ -51,7 +51,6 @@ var newsSp = document.getElementById('newsSp');
 newsIndicator2.addEventListener('click' , function(){
     newsSp.classList.remove('active');
     newsSp.style.display = 'none';
-    newsIndicator2.style.backgroundColor = '#f2c712';
     newsPc.classList.add('active');
     newsPc.style.display = 'block';
 })
