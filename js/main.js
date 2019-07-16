@@ -64,3 +64,23 @@ newsIndicator1.addEventListener('click' , function() {
     newsIndicator1.classList.add('active');
     newsIndicator2.classList.remove('active');
 })
+
+// slider for pc
+
+
+var pcMain = document.getElementById('pcMain');
+var mainIndicator1 = document.getElementById('mainIndicator1');
+var mainIndicator2 = document.getElementById('mainIndicator2');
+
+mainIndicator2.addEventListener('click' , function(){
+    mainIndicator1.classList.remove('active');
+    console.log('changed');
+    mainIndicator2.classList.add('active');
+    pcMain.style.backgroundImage = 'url(picture/University-blog-001.jpg)';
+})
+mainIndicator1.addEventListener('click' , function() {
+  mainIndicator2.classList.remove('active');
+  console.log('has itis');
+  mainIndicator1.classList.add('active');
+  pcMain.style.backgroundImage = 'url(picture/shutterstock_726926179.jpg)';
+})

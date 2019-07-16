@@ -446,7 +446,7 @@ main .apply-btn:hover {
 }
 .news_outer .news_slide .news_dots li.active {
       background: #f2c712;
-    }
+  }
 
 /****************/
 /**research**/
@@ -815,7 +815,7 @@ footer input[type="submit"]:hover {
       border-radius: 60%;
       display: inline-block;
       margin-right: 15px;
-      background-color: white;
+      border: 2px solid white;
   }
   main .main_dots .main_active1 {
       width: 20px;
@@ -823,10 +823,14 @@ footer input[type="submit"]:hover {
       border-radius: 60%;
       display: inline-block;
       margin-right: 15px;
-      border: 1px solid white;
+      border: 2px solid white;
   }
-
-
+  main .main_active:hover {
+    background-color: #f2c712;
+  }
+  main .wrapper .main_slide .main_dots li.active {
+        background: #f2c712;
+  }
   /******************/
   /**pc programming**/
   /*****************/
