@@ -768,7 +768,7 @@ footer input[type="submit"]:hover {
     margin-top: 100px;
     margin-left: 50px;
     width: 425px;
-    font-weight: bold;
+    font-weight: lighter;
     font-family: 'Source Sans Pro', sans-serif;
   }
   main .wrapper p {
@@ -776,7 +776,6 @@ footer input[type="submit"]:hover {
     padding-bottom: 18px;
     font-size: 20px;
     margin-left: 50px;
-    font-weight: bold;
     width: 510px;
   }
   main .learn-btn {

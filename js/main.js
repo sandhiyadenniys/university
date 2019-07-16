@@ -76,11 +76,11 @@ mainIndicator2.addEventListener('click' , function(){
     mainIndicator1.classList.remove('active');
     console.log('changed');
     mainIndicator2.classList.add('active');
-    pcMain.style.backgroundImage = 'url(picture/University-blog-001.jpg)';
+    pcMain.style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)) , url(picture/University-blog-001.jpg)';
 })
 mainIndicator1.addEventListener('click' , function() {
   mainIndicator2.classList.remove('active');
   console.log('has itis');
   mainIndicator1.classList.add('active');
-  pcMain.style.backgroundImage = 'url(picture/shutterstock_726926179.jpg)';
+  pcMain.style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)) , url(picture/shutterstock_726926179.jpg)';
 })
