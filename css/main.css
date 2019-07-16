@@ -97,7 +97,7 @@ header .sm .sm-navi .sm-navi_bar:hover {
 /**main**/
 /****************/
 main {
-  background-image: url("../picture/shutterstock_726926179.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)) , url("../picture/shutterstock_726926179.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,6 +165,7 @@ main .apply-btn:hover {
   text-align: center;
   color: #4c4c4c;
   font-family: 'Merriweather', serif;
+  margin-bottom: 20px;
 }
 .programming .course-img img {
   width: 100%;
@@ -195,7 +196,7 @@ main .apply-btn:hover {
   font-weight: bold;
 }
 .programming .courses .content p {
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 .programming .courses .content {
@@ -210,7 +211,7 @@ main .apply-btn:hover {
   text-align: center;
   padding: 7px 28px;
   border-radius: 2.5px;
-  font-size: 10px;
+  font-size: 12px;
   cursor: pointer;
   display: inline-block;
   align-items: center;
@@ -236,7 +237,7 @@ main .apply-btn:hover {
   font-family: 'Merriweather', serif;
 }
 .admission .wrapper {
-  background-image: url(../picture/admission.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)) , url(../picture/admission.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,7 +275,7 @@ main .apply-btn:hover {
   position: relative;
 }
 .events .event_heading h1 {
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   padding-bottom: 10px;
   color: #47689a;
@@ -282,7 +283,7 @@ main .apply-btn:hover {
 }
 .events .event_heading p {
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 .events .event_heading .event-pic img {
@@ -323,7 +324,7 @@ main .apply-btn:hover {
 .events .event_images .right_img .event-date {
   background-color: #f1c712;
   border: none;
-  font-size: 9px;
+  font-size: 10px;
   text-align: center;
   padding: 7px 14px;
   position: absolute;
@@ -333,7 +334,7 @@ main .apply-btn:hover {
 .events .event_images .right_img1 .event-date {
   background-color: #f1c712;
   border: none;
-  font-size: 9px;
+  font-size: 10px;
   text-align: center;
   padding: 7px 14px;
   position: absolute;
@@ -475,6 +476,7 @@ main .apply-btn:hover {
   text-align: center;
   font-size: 25px;
   color: #47689a;
+  margin-bottom: 15px;
 }
 .research .research_section .research_content .res_para img {
   width: 4%;
@@ -751,7 +753,7 @@ footer input[type="submit"]:hover {
   /**pc main**/
   /****************/
   main {
-    background-image: url(../picture/shutterstock_726926179.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)) , url("../picture/shutterstock_726926179.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -766,7 +768,7 @@ footer input[type="submit"]:hover {
     margin-top: 100px;
     margin-left: 50px;
     width: 425px;
-    font-weight: lighter;
+    font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
   }
   main .wrapper p {
@@ -774,6 +776,7 @@ footer input[type="submit"]:hover {
     padding-bottom: 18px;
     font-size: 20px;
     margin-left: 50px;
+    font-weight: bold;
     width: 510px;
   }
   main .learn-btn {
@@ -897,6 +900,7 @@ footer input[type="submit"]:hover {
     font-size: 25px;
     text-align: center;
     color: #4c4c4c;
+    margin-bottom: 50px;
   }
   .programming .courses .readmore-btn:hover {
     color: white;
@@ -911,8 +915,8 @@ footer input[type="submit"]:hover {
     font-size: 43px;
     text-align: center;
     color: #47689a;
-    margin-bottom: 35px;
-    margin-top: 13px;
+    margin-bottom: 60px;
+    margin-top: 60px;
   }
   .admission_section {
     width: 46%;
@@ -1092,7 +1096,7 @@ footer input[type="submit"]:hover {
     font-size: 48px;
     text-align: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 60px;
   }
   .news_outer .wrapper .pc {
     width: 50%;
